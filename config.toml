@@ -1,0 +1,27 @@
+[instapaper]
+username="mail@hughbagan.com"
+password="spankinrankin5"
+
+[feeds]
+urls=[
+"https://hughtoons.com/feed.xml",
+# this doesnt work on the Kobo for some reason
+#"https://comiccaster.xyz/rss/betty",
+"https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
+"https://www.cbc.ca/webfeed/rss/rss-topstories",
+"https://emanueleferonato.com/feed/",
+"https://godotengine.org/rss.xml",
+"https://itch.io/blog.rss",
+"https://www.unrealengine.com/rss",
+# use custom scraper for The Pulse
+"http://localhost:8000/taprootpulse-full.xml",
+# Kaplay blog doesnt really work, but the feed article itself has no content so I'll leave it for now.
+"https://kaplayjs.com/blog/rss.xml",
+"https://howtomarketagame.com/feed",
+"https://jslegenddev.substack.com/feed",
+"https://heartgamedev.substack.com/feed",
+"https://phaser.io/news.rss",
+"https://buttondown.email/webgamedev/rss",
+"https://farawaytimes.blogspot.com/feeds/posts/default",
+
+]

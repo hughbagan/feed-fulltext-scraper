@@ -1,0 +1,11 @@
+[Unit]
+Description=Run feeds-to-instapaper
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment="HOME=/home/hugh"
+ExecStart=/home/hugh/go/bin/feeds-to-instapaper
+
+[Install]
+WantedBy=default.target

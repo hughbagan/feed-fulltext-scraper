@@ -1,0 +1,15 @@
+[Unit]
+Description=Run feed-fulltext-scraper
+After=network-online.target
+
+[Service]
+Type=simple
+User=hugh
+WorkingDirectory=/home/hugh/dev/feed-fulltext-scraper
+ExecStart=/home/hugh/dev/feed-fulltext-scraper/venv/bin/python3 -u main.py
+RuntimeMaxSec=3h
+Restart=no
+
+# Remove or comment out the [Install] section so it doesnt run on boot independently
+# [Install]
+# WantedBy=default.target
